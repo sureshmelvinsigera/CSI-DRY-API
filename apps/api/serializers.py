@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import Bucketlist
+from apps.api.models import Bucketlist
 
 
 class BucketlistSerializer(serializers.ModelSerializer):
