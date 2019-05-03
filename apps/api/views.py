@@ -1,7 +1,4 @@
 from django.shortcuts import render
-
-# Create your views here.
-from django.shortcuts import render
 from rest_framework import generics
 from apps.api.serializers import BucketlistSerializer
 from apps.api.models import Bucketlist
